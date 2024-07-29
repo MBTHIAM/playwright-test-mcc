@@ -1,0 +1,65 @@
+{   "_comment": "Ajouter un conseiller existant - Validation des messages derreurs",
+    "numeroconseillerexiste": "640",
+    "numeroconseiller": "2058",
+    "Nom": "Test nom",
+    "Prenom": "Test prénom",
+
+
+    "_comment1": "Ajouter un conseiller inexistant  - Saisie des champs obligatoires seulement.",
+    "numeroconseiller1": "2059",
+    "Nom1": "FATOU",
+    "Prenom1": "FALL",
+
+
+    "_comment2": "'Saisir tous les champs dun conseiller en création'",
+    "numeroconseiller2": "5028",
+    "Nom2": "THIAM",
+    "Prenom2": "DEMBA",
+    "Particularité": "Directeur",
+   
+
+    "_comment3": "Rechercher un conseiller existant",
+    "numeroconseiller3": "5020",
+    "Nom3": "THIAM",
+    "Prenom3": "DEMBA",
+
+
+    "_comment4": "Ajouter un formation",
+    "numeroconseiller4": "5020",
+    "Nom4": "THIAM",
+    "Prenom4": "DEMBA",
+    "Nom du diplôme": "Formation aws Solution Architect sécurité",
+    "Institution": "IAM",
+    "Année dobtention": "2022",
+    "Type de formation": "33",
+
+    
+    "_comment5": "Ajouter une formation- Validation des messages",
+    
+    "Nom du diplôme1": "Formation en programmation java",
+    "Institution1": "IAM",
+    "Année dobtention1": "2023",
+    "Type de formation1": "33",
+
+    "_comment6": "Supprimer une formation",
+    "numeroconseiller6": "5020",
+    "Nom6": "THIAM",
+    "Prenom6": "DEMBA",
+
+    "_comment7": "Supprimer plusieurs formation",
+
+    "numeroconseiller7": "5020",
+    "Nom7": "THIAM",
+    "Prenom7": "DEMBA",
+
+    "_comment8": "Modifier une perfectionnement",
+
+    "numeroconseiller8": "1004",
+    "Date8": "2021",
+     "Titre8": "Étudier en France : immersion française B1-B2",
+     "Institution8": "Coursera"
+    
+    
+  
+}
+
