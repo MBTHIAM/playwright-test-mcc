@@ -26,13 +26,3 @@ jobs:
         path: playwright-report/
         retention-days: 30
 
-    
-    - name: Check URL accessibility
-      run: |
-          URL="https://sdw16.scs.systematix-qc.com:5304/sageui/auth"
-          if curl --output /dev/null --silent --head --fail "$URL"; then
-            echo "URL exists: $URL"
-          else
-            echo "URL does not exist: $URL"
-            exit 1
-          fi

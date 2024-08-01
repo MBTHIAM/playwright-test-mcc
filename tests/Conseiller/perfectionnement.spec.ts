@@ -19,7 +19,7 @@ test.afterEach(async ({ page }) => {
 test.describe('test sur perfectionnement', ()=>{
 
     
-    test('Modifier une perfectionnemen', async ({ page }) =>{
+    test('Modifier une perfectionnement', async ({ page }) =>{
     await page.getByText(data8.Titre8).click();
     await page.getByPlaceholder('Année d\'obtention...').fill(data8.Date8);
     await page.getByText('Enregistrer').click();
@@ -31,5 +31,15 @@ test.describe('test sur perfectionnement', ()=>{
   
       });
     
+
+      test('Supprimer une perfectionnement', async ({ page }) =>{
+       
+      
+      });
         
+
+      test('Supprimer plusieurs perfectionnements', async ({ page }) =>{
+       
+      
+      });
   });
