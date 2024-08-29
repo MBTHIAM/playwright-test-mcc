@@ -1,0 +1,23 @@
+{   "_comment": "Ajouter un conseiller existant - Validation des messages derreurs",
+    "numeroconseillerexiste": "640",
+    "numeroconseiller": "2059",
+    "Nom": "Test nom",
+    "Prenom": "Test prénom",
+
+
+    "_comment1": "Ajouter un conseiller inexistant  - Saisie des champs obligatoires seulement.",
+    "numeroconseiller1": "2060",
+    "Nom1": "FATOU",
+    "Prenom1": "SECK",
+
+
+    "_comment2": "'Saisir tous les champs dun conseiller en création'",
+    "numeroconseiller2": "5029",
+    "Nom2": "THIAM",
+    "Prenom2": "DEMBA",
+    "Particularité": "Directeur"
+   
+
+  
+}
+

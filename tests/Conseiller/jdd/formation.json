@@ -1,0 +1,29 @@
+{
+    "_comment4": "Ajouter un formation",
+    "numeroconseiller4": "5020",
+    "Nom4": "THIAM",
+    "Prenom4": "DEMBA",
+    "Nom du diplôme": "Formation Sybersécurité",
+    "Institution": "intelpate",
+    "Année dobtention": "2023",
+    "Type de formation": "33",
+
+    
+    "_comment5": "Ajouter une formation- Validation des messages",
+    
+    "Nom du diplôme1": "Formation en programmation C++",
+    "Institution1": "IAM",
+    "Année dobtention1": "2023",
+    "Type de formation1": "33",
+
+    "_comment6": "Supprimer une formation",
+    "numeroconseiller6": "5020",
+    "Nom6": "THIAM",
+    "Prenom6": "DEMBA",
+
+    "_comment7": "Supprimer plusieurs formation",
+
+    "numeroconseiller7": "5020",
+    "Nom7": "THIAM",
+    "Prenom7": "DEMBA"
+}

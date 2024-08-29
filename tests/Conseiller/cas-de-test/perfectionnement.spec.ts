@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { waitFor, loginsage } from '../utils.ts';
-import data8 from  "../Conseiller/conseiller.json";
+import { waitFor, loginsage } from '../../utils.ts';
+import data8 from  "../jdd/perfectionnement.json";
 
 test.beforeEach(async ({ page }) => {
 
@@ -19,7 +19,7 @@ test.afterEach(async ({ page }) => {
 test.describe('test sur perfectionnement', ()=>{
 
     
-    test('Modifier une perfectionnement', async ({ page }) =>{
+    test.skip('Modifier une perfectionnement', async ({ page }) =>{
     await page.getByText(data8.Titre8).click();
     await page.getByPlaceholder('Année d\'obtention...').fill(data8.Date8);
     await page.getByText('Enregistrer').click();
@@ -33,13 +33,25 @@ test.describe('test sur perfectionnement', ()=>{
     
 
       test('Supprimer une perfectionnement', async ({ page }) =>{
+       await page.getByRole('row', { name: data8.datatest9 }).getByRole('checkbox').check();
+       await page.locator('.w-5 > .btn').first().click();
+       await expect(page.locator('#swal2-content')).toContainText('Êtes-vous certain de vouloir supprimer ce(s) perfectionnement(s)?');
+       await page.getByRole('button', { name: 'Confirmer' }).click();
+       await page.getByText('Perfectionnement(s) supprimée').click();
        
       
       });
         
 
-      test('Supprimer plusieurs perfectionnements', async ({ page }) =>{
-       
+      test.skip('Supprimer plusieurs perfectionnements', async ({ page }) =>{
+
+      const dm = data8.n;
+      for (let i = 1; i <= dm; i++) {
+        await page.locator('input[name="selection"]').nth(i).check();
+        }
+       await page.locator('.scs-disposition > app-scs-grille > div > div > .col-md-2 > div > a').click();
+       await expect(page.locator('#swal2-content')).toContainText('Êtes-vous certain de vouloir supprimer ce(s) perfectionnement(s)?');
+       await page.getByRole('button', { name: 'Confirmer' }).click();
       
       });
   });

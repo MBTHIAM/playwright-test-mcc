@@ -1,0 +1,16 @@
+{
+ "_comment12": "Ajouter un employeur",
+     "numéroconseiller12": "1004",
+     "SelectionEmpoyeur12": "599",
+     "Nom de employeur": "Alcan",
+     "Date de début": "2000-06",
+     "Date de fin": "2008-05",
+     "Titre12": "TestEmployeur1",
+     "Nombre de mois": "60",
+
+     "_comment13": "Supprimer un employeur,on utilise le même numéro conseiller que le cas de test ajouter un employeur",
+    
+
+     "_comment14": "Supprimer plusieurs employeur, on utilise le même numéro conseiller que le cas de test ajouter un employeur",
+     "m": 2   
+}
