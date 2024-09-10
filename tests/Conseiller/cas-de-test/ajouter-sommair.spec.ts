@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { waitFor, loginsage } from '../../utils.ts';
-import data8 from  "../jdd/sommair.json";
+import data8 from "../jdd/sommair.json";
+
 
 test.beforeEach(async ({ page }) => {
 

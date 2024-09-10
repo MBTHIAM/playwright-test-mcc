@@ -4,5 +4,12 @@
      "Numéro conseiller": "1004",
      "Ligne d'affaire": "Développement orienté objet Java",
      "Rôle principaux": "Analyste-programmeur",
-     "Particularité": "Développeur java"
+     "Particularité": "Développeur java",
+
+     "_comment2": "Modifier/Supprimer- Lignes daffaires/Rôles principaux",
+     "Numéro conseiller1": "1004",
+     "Ligne d'affaire à décocher": "Développement orienté objet Java",
+     "Rôle principaux à décocher": "Analyste-programmeur",
+     "Nouveau Rôle principaux à cocher": "Gestion et conseil",
+     "Particularité à ajouter au besoin": "Développeur java"
 }

@@ -1,0 +1,12 @@
+{
+
+    "_comment": "Supprimer un client existant",
+    "NonClientSupprimer": "TESTBOLAX",
+    "No Client": "2607",
+
+    "_comment1": "Supprimer un client - Validation des messages d'erreurs",
+    "NonClientSupprimer1": "1re Région militaire",
+    "No Client1": "1263"
+
+    
+}
